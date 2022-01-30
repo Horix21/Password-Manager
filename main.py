@@ -7,7 +7,7 @@ passwords = []
 users = []
 emails = []
 appNames = []
-fernet = Fernet(b'HHWGjhU_UKFrTtkEOY1zZrd2hu6o8zchLHbGLesXbIc=')
+fernet = Fernet() #!!!!!! GENERATE A KEY YOURSELF USING Fernet.generate_key()!!!!!!!!
 generalPassword = ""
 
 if os.path.isfile('genPass.txt'):
